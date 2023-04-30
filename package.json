@@ -17,7 +17,7 @@
     "test:all": "yarn test:hardhat && yarn test:forge",
     "test:hardhat": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' hardhat test",
     "test:forge": "forge test",
-    "install:ur": "cd node_modules/@uniswap/universal-router && forge install",
+    "install:ur": "cd node_modules/@mageswap/universal-router && forge install",
     "build": "tsdx build",
     "prettier:fix": "prettier --write '**/*.ts' && prettier --write '**/*.json'",
     "forge:fix": "forge fmt",
@@ -49,21 +49,21 @@
     "typescript": "^4.3.3"
   },
   "dependencies": {
-    "@mageswap/universal-router": "github:mageswap/universal-router",
-    "@mageswap/permit2-sdk": "github:mageswap/permit2-sdk",
-    "@mageswap/router-sdk": "github:mageswap/router-sdk",
-    "@mageswap/sdk-core": "github:mageswap/sdk-core",
-    "@mageswap/v2-sdk": "github:mageswap/v2-sdk",
-    "@mageswap/v3-sdk": "github:mageswap/v3-sdk",
+    "@mageswap/universal-router": "1.4.0",
+    "@mageswap/permit2-sdk": "^1.2.0",
+    "@mageswap/router-sdk": "^1.4.0",
+    "@mageswap/sdk-core": "^3.1.0",
+    "@mageswap/v2-sdk": "^3.0.1",
+    "@mageswap/v3-sdk": "^3.9.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mageswap/universal-router-sdk.git"
+    "url": "git+https://github.com/Uniswap/universal-router-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/mageswap/universal-router-sdk/issues"
+    "url": "https://github.com/Uniswap/universal-router-sdk/issues"
   },
-  "homepage": "https://github.com/mageswap/universal-router-sdk#readme"
+  "homepage": "https://github.com/Uniswap/universal-router-sdk#readme"
 }
